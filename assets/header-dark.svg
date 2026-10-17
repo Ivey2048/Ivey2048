@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" role="img" aria-labelledby="title desc">
+  <title id="title">Ivey2048</title>
+  <desc id="desc">LLM 评测 · 终端工作流 · Agent 工具。底部是一条照着 2020 年 dwm 配置画的状态栏：标签“一 二 三”，窗口 nvim、ranger、zsh，右侧 2020 → 2026。</desc>
+  <defs>
+    <clipPath id="card">
+      <rect width="880" height="280" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: "Fantasque Sans Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .cjk  { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", "Noto Sans SC", sans-serif; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="280" fill="#1A1A1A"/>
+
+    <!-- name + block cursor -->
+    <text class="mono" x="56" y="113" font-size="64" font-weight="700" fill="#FFFFFF" textLength="308" lengthAdjust="spacingAndGlyphs">Ivey2048</text>
+    <rect x="368" y="63" width="34" height="62" fill="#42A5F5"/>
+    <text class="cjk" x="58" y="169" font-size="28" fill="#BBBBBB">LLM 评测 · 终端工作流 · Agent 工具</text>
+
+    <!-- dwm bar (topbar = 0), colors from config.h -->
+    <rect y="232" width="880" height="48" fill="#222222"/>
+    <rect y="232" width="880" height="1" fill="#444444"/>
+
+    <!-- tags 一 二 三, 一 selected -->
+    <rect x="0" y="233" width="48" height="47" fill="#37474F"/>
+    <text class="cjk" x="24" y="263" font-size="20" text-anchor="middle" fill="#FFFFFF">一</text>
+    <text class="cjk" x="72" y="263" font-size="20" text-anchor="middle" fill="#BBBBBB">二</text>
+    <text class="cjk" x="120" y="263" font-size="20" text-anchor="middle" fill="#BBBBBB">三</text>
+
+    <!-- layout symbol + awesomebar windows -->
+    <text class="mono" x="160" y="262" font-size="18" fill="#BBBBBB">[]=</text>
+    <rect x="208" y="233" width="192" height="47" fill="#37474F"/>
+    <text class="mono" x="222" y="262" font-size="18" fill="#FFFFFF">nvim README.md</text>
+    <text class="mono" x="418" y="262" font-size="18" fill="#BBBBBB">ranger</text>
+    <text class="mono" x="502" y="262" font-size="18" fill="#BBBBBB">zsh</text>
+
+    <!-- status -->
+    <text class="mono" x="852" y="262" font-size="18" text-anchor="end" fill="#BBBBBB">2020 → 2026</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="279" rx="13.5" fill="none" stroke="#444444"/>
+</svg>
